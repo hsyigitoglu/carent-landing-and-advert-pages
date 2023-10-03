@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="respstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <main>
+          <header>
+            <div class="overlay"></div>
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Carent.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span>
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                  </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                      <a class="nav-link" href="#modelsPc">Araçlarımız</a>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                      <a class="nav-link" href="#modelsPhone">Araçlarımız</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#iletisim">İletişim</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-none d-lg-flex">
+                  <button class="nav-button">
+                    <i class="fa-solid fa-phone me-2"></i>Hemen Arayın
+                  </button>
+                </div>
+              </div>
+            </nav>
+            <div class="headerText">
+              <h1>Aradığın O Arabayı Bulamadın Mı? <br>
+              Hadi! Ne Duruyorsun? <br>
+              Gel Carent'e!
+              </h1>
+            </div>
+            <div class="headerBottom">
+              <div class="row">
+                <div class="col-12 d-flex">
+                  <i class="fa-solid fa-angles-down"></i>
+                  <h2>Hadi Kaydır Arabanı Bulalım</h2>
+                  <i class="fa-solid fa-angles-down"></i>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <section id="modelsPc" class="modelsPc d-none d-lg-block">
+            <h1>Ne Tarz Bir Araba Arıyorsunuz?</h1>
+            <p>Aradığınız türe basın ve arabanızı seçin!</p>
+            <div class="row justify-content-center ">
+              <div class="col-12 col-md-6 col-lg-2 chooseModel chSedan image-container">
+                <a href="#sedan">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/sedan.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">SEDAN</div>
+                </a>
+                </div> 
+              <div class="col-12 col-md-6 col-lg-2 chooseModel chHatch image-container">
+                <a href="#hatchback">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/hatchback.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">HATCHBACK</div>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-2 chooseModel chSuv image-container">
+                <a href="#suv">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/suv.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">SUV</div></a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-2 chooseModel chLux image-container">
+                <a href="#lux">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/lux.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">LÜKS</div>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-2 chooseModel chCls image-container">
+                <a href="#classic">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/classic.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">KLASİK</div>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section id="modelsPhone" class="modelsPhone d-block d-lg-none">
+            <h1>Ne Tarz Bir Araba Arıyorsunuz?</h1>
+            <p>Aradığınız türe basın ve arabanızı seçin!</p>
+            <div class="row justify-content-center ">
+              <div class="col-6 chooseModel image-container">
+                    <a href="carDetails.html">
+                      <div class="image-overlay"></div>
+                      <img src="./images/index/sedan.jpg" style="width: 100%;" alt="">
+                      <div class="centered-text">SEDAN</div>
+                    </a>
+              </div>
+              <div class="col-6 chooseModel goSite">
+                <h3>Sedan Araçlarımız İçin Butona Tıklayın.</h3>
+                <a href="carDetails.html"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+              <div class="col-6 chooseModel image-container">
+                <a href="carDetails.html">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/hatchback.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">HATCHBACK</div>
+                </a>
+              </div>
+              <div class="col-6 chooseModel goSite">
+                <h3>Hatchback Araçlarımız İçin Butona Tıklayın.</h3>
+                <a href="carDetails.html"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+              <div class="col-6 chooseModel  image-container">
+                <a href="carDetails.html">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/suv.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">SUV</div></a>
+              </div>
+              <div class="col-6 chooseModel goSite">
+                <h3>SUV Araçlarımız İçin Butona Tıklayın.</h3>
+                <a href="carDetails.html"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+              <div class="col-6 chooseModel  image-container">
+                <a href="carDetails.html">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/lux.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">LÜKS</div>
+                </a>
+              </div>
+              <div class="col-6 chooseModel goSite">
+                <h3>Lüks Araçlarımız İçin Butona Tıklayın.</h3>
+                <a href="carDetails.html"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+              <div class="col-6 chooseModel  image-container">
+                <a href="carDetails.html">
+                  <div class="image-overlay"></div>
+                  <img src="./images/index/classic.jpg" style="width: 100%;" alt="">
+                  <div class="centered-text">KLASİK</div>
+                </a>
+              </div>
+              <div class="col-6 chooseModel goSite">
+                <h3>Klasik Araçlarımız İçin Butona Tıklayın.</h3>
+                <a href="carDetails.html"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </section>
+
+          <section id="sedan" class="sedan d-none d-lg-block">
+            <h1>Sedan Araçlarımız</h1>
+            <div class="categoryText">
+              <h2>Aradığınız Sedan Bir Araç Mı?</h2>
+                    <p>Genellikle dört kişilik olan, iki ya da dört kapısı bulunan araçlara sedan adı verilir. Sedan arabaların ilk bakışta dikkat çeken en önemli farkını ise, bagaj kısmının sürücü ve yolcu kısmından tamamen ayrı olması oluşturur. Böylece hem sürücü ve yolcular hem de yükler için daha fazla alan ortaya çıkar. Bu yüzden sedan araçlar, çoğu zaman çocuklu ailelerin ilk tercihleri arasında yer alır.</p>
+            </div>
+              <div class="row rowSlider">
+                <!-- <div class=" rowSlider"> -->
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active d-flex" data-bs-interval="5000">
+                          <!-- <div class="card-group"> -->
+                            <div class="row">
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/bmw.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">BMW M3</h5>
+                                        <h5 class="price">1000₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2022</p>
+                                        <p><strong>KM:</strong> 56.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/honda.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Honda Civic</h5>
+                                        <h5 class="price">850₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2021</p>
+                                        <p><strong>KM:</strong> 81.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Antrasit</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/opel.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Opel Corsa</h5>
+                                        <h5 class="price">650₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2020</p>
+                                        <p><strong>KM:</strong> 64.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Gri</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/toyota.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Toyota Corolla</h5>
+                                        <h5 class="price">700₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2019</p>
+                                        <p><strong>KM:</strong> 101.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Manuel</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                           
+                            
+                            
+                            
+                        <!-- </div> -->
+                      </div>
+                    </div>
+                   
+                    <div class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+                      <span class="visually-hidden">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+                      <span class="visually-hidden">Next</span>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                <div class="col-12 seeAll">
+                  <a href="carDetails.html"><strong>Tüm Kiralık Sedan Araç Modellerini Gör</strong></a>
+                </div>
+                <div class="col-12 goDown">
+                  <h2>Hatchback Araçlarımıza da Göz Atabilirsiniz</h2>
+                  <a href="#hatchback"><i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+              </div>
+          </section>
+
+          <section id="hatchback" class="hatchback d-none d-lg-block">
+            <h1>Hatchback Araçlarımız</h1>
+            <div class="categoryText">
+              <h2>Aradığınız Hatchback Bir Araç Mı?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto quidem pariatur error ipsam libero totam maxime, aliquid beatae? Nostrum nam vel similique a aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, adipisci facilis nemo incidunt laboriosam magni corporis eligendi animi ipsum alias.</p>
+            </div>
+              <div class="row rowSlider">
+                <!-- <div class=" rowSlider"> -->
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active d-flex" data-bs-interval="5000">
+                          <!-- <div class="card-group"> -->
+                            <div class="row">
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/fiat500.jpeg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">FIAT 500</h5>
+                                        <h5 class="price">1000₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2022</p>
+                                        <p><strong>KM:</strong> 56.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/renault-clio.jpeg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Renault Clio</h5>
+                                        <h5 class="price">850₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2021</p>
+                                        <p><strong>KM:</strong> 81.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Antrasit</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/mercedes-a180d.jpeg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Mercedes A180</h5>
+                                        <h5 class="price">650₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2020</p>
+                                        <p><strong>KM:</strong> 64.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Gri</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/wv-golf.webp" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Wolkswagen Golf</h5>
+                                        <h5 class="price">700₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2019</p>
+                                        <p><strong>KM:</strong> 101.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Manuel</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                           
+                            
+                            
+                            
+                        <!-- </div> -->
+                      </div>
+                    </div>
+                   
+                    <div class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+                      <span class="visually-hidden">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+                      <span class="visually-hidden">Next</span>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                <div class="col-12 seeAll">
+                  <a href="carDetails.html"><strong>Tüm Kiralık Hatchback Araç Modellerini Gör</strong></a>
+                </div>
+                <div class="col-12 goDown">
+                  <h2>SUV Araçlarımıza da Göz Atabilirsiniz</h2>
+                  <a href="#suv"><i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+              </div>
+          </section>
+
+          <section id="suv" class="suv d-none d-lg-block">
+            <h1>SUV Araçlarımız</h1>
+            <div class="categoryText">
+              <h2>Aradığınız SUV Bir Araç Mı?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto quidem pariatur error ipsam libero totam maxime, aliquid beatae? Nostrum nam vel similique a aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, adipisci facilis nemo incidunt laboriosam magni corporis eligendi animi ipsum alias.</p>
+            </div>
+              <div class="row rowSlider">
+                <!-- <div class=" rowSlider"> -->
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active d-flex" data-bs-interval="5000">
+                          <!-- <div class="card-group"> -->
+                            <div class="row">
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/mercedes-g63.webp" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Mercedes G63</h5>
+                                        <h5 class="price">1000₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2022</p>
+                                        <p><strong>KM:</strong> 56.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/audi-q7.jpeg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Audi Q7</h5>
+                                        <h5 class="price">850₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2021</p>
+                                        <p><strong>KM:</strong> 81.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Antrasit</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/jeep-cherokee.jpeg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Jeep Cherokee</h5>
+                                        <h5 class="price">650₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2020</p>
+                                        <p><strong>KM:</strong> 64.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Gri</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/rangerover.jpeg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Range Rover</h5>
+                                        <h5 class="price">700₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2019</p>
+                                        <p><strong>KM:</strong> 101.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Manuel</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                           
+                            
+                            
+                            
+                        <!-- </div> -->
+                      </div>
+                    </div>
+                   
+                    <div class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+                      <span class="visually-hidden">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+                      <span class="visually-hidden">Next</span>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                <div class="col-12 seeAll">
+                  <a href="carDetails.html"><strong>Tüm Kiralık SUV Araç Modellerini Gör</strong></a>
+                </div>
+                <div class="col-12 goDown">
+                  <h2>Lüks Araçlarımıza da Göz Atabilirsiniz</h2>
+                  <a href="#lux"><i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+              </div>
+          </section>
+
+          <section id="lux" class="lux d-none d-lg-block">
+            <h1>Lüks Araçlarımız</h1>
+            <div class="categoryText">
+              <h2>Aradığınız Lüks Bir Araç Mı?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto quidem pariatur error ipsam libero totam maxime, aliquid beatae? Nostrum nam vel similique a aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, adipisci facilis nemo incidunt laboriosam magni corporis eligendi animi ipsum alias.</p>
+            </div>
+              <div class="row rowSlider">
+                <!-- <div class=" rowSlider"> -->
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active d-flex" data-bs-interval="5000">
+                          <!-- <div class="card-group"> -->
+                            <div class="row">
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/bentley.jpeg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Bentley</h5>
+                                        <h5 class="price">1000₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2022</p>
+                                        <p><strong>KM:</strong> 56.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/porsche-911.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Porsche 911</h5>
+                                        <h5 class="price">850₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2021</p>
+                                        <p><strong>KM:</strong> 81.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Antrasit</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/ferrari.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Ferrari</h5>
+                                        <h5 class="price">650₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2020</p>
+                                        <p><strong>KM:</strong> 64.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Gri</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/alfa-romeo-car.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Toyota Corolla</h5>
+                                        <h5 class="price">700₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2019</p>
+                                        <p><strong>KM:</strong> 101.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Manuel</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                           
+                            
+                            
+                            
+                        <!-- </div> -->
+                      </div>
+                    </div>
+                   
+                    <div class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+                      <span class="visually-hidden">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+                      <span class="visually-hidden">Next</span>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                <div class="col-12 seeAll">
+                  <a href="carDetails.html"><strong>Tüm Kiralık Lüks Araç Modellerini Gör</strong></a>
+                </div>
+                <div class="col-12 goDown">
+                  <h2>Klasik Araçlarımıza da Göz Atabilirsiniz</h2>
+                  <a href="#classic"><i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+              </div>
+          </section>
+
+          <section id="classic" class="classic d-none d-lg-block">
+            <h1>Klasik Araçlarımız</h1>
+            <div class="categoryText">
+              <h2>Aradığınız Klasik Bir Araç Mı?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iusto quidem pariatur error ipsam libero totam maxime, aliquid beatae? Nostrum nam vel similique a aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, adipisci facilis nemo incidunt laboriosam magni corporis eligendi animi ipsum alias.</p>
+            </div>
+              <div class="row rowSlider">
+                <!-- <div class=" rowSlider"> -->
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active d-flex" data-bs-interval="5000">
+                          <!-- <div class="card-group"> -->
+                            <div class="row">
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/mustang.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Ford Mustang</h5>
+                                        <h5 class="price">1000₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2022</p>
+                                        <p><strong>KM:</strong> 56.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/jaguar.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Jaguar XJ6</h5>
+                                        <h5 class="price">850₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2021</p>
+                                        <p><strong>KM:</strong> 81.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Antrasit</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/chevrolet.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Chevrolet</h5>
+                                        <h5 class="price">650₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2020</p>
+                                        <p><strong>KM:</strong> 64.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Gri</p>
+                                        <p><strong>Vites:</strong>Otomatik</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 colBody">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src="./images/carCard/cadillac.jpg" class="card-img-top" alt="...">
+                                  </div>
+                                  <div class="card-body">
+                                    <div class="row">
+                                      <div class="col-12 d-flex">
+                                        <h5 class="card-title">Cadillac</h5>
+                                        <h5 class="price">700₺</h5>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Yıl:</strong>2019</p>
+                                        <p><strong>KM:</strong> 101.000</p>
+                                      </div>
+                                      <div class="col-12 d-flex">
+                                        <p><strong>Renk:</strong>Beyaz</p>
+                                        <p><strong>Vites:</strong>Manuel</p>
+                                      </div>
+                                    </div>
+                                    <button>
+                                      <a href="#" class="btn callNow"><i class="fa-solid fa-phone"></i> HEMEN ARA</a>
+                                    </button>
+                                    <button>
+                                      <a href="#" class="btn seeDetails"><i class="fa-solid fa-circle-info"></i>DETAYLARI GÖR</a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                           
+                            
+                            
+                            
+                        <!-- </div> -->
+                      </div>
+                    </div>
+                   
+                    <div class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+                      <span class="visually-hidden">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+                      <span class="visually-hidden">Next</span>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                <div class="col-12 seeAll">
+                  <a href="carDetails.html"><strong>Tüm Kiralık Klasik Araç Modellerini Gör</strong></a>
+                </div>
+                <div class="col-12 goDown">
+                  <h2>Aradığınız Aracı Bulamadınız mı? Bize Ulaşın.</h2>
+                  <a href="#iletisim"><i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+              </div>
+          </section>
+
+          <section id="iletisim" class="iletisim"> 
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 ">
+                  <div class="contactText">
+                    <h2>Bize Ulaşın</h2>
+                    <p><strong>Telefon:</strong> 0(512) 345 67 89</p>
+                    <p><strong>E-Mail</strong> abdghjkl@gmail.com</p>
+                    <p class="text-center yada">ya da</p>
+                    <h2>Biz Size Ulaşalım</h2>
+                    <p class="inputUp">Tel No veya Mail Giriniz</p>
+                    <div class="callUs">
+                      <input type="text" placeholder="Tel No veya Mail Adresinizi Giriniz">
+                      <button>Gönder</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192697.88850540662!2d28.847372832265073!3d41.00546324297284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1695820594838!5m2!1str!2str"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+
+            </div>
+            
+          </section>
+
+          <section id="about" class="about">
+            <h1 class="text-center">Hakkımızda</h1>
+              <div class="row">
+                <div class="col-lg-6 d-none d-lg-flex">
+                  <div class="aboutImage">
+                    <img src="./images/index/about.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="aboutText">
+                    <h2>Biz Kimiz?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, enim dolore. Ullam similique numquam quia repellendus fugiat facilis modi fugit!</p>
+                    <h2>Ne yapıyoruz?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequatur sequi sed, quam magnam impedit.</p>
+                  </div>
+                  <div class="aboutText">
+                    <h2>Adresimiz</h2>
+                    <h3>Aklınıza bir şey mi takıldı? Gelin yardımcı olalım. Bir kahvemizi için.</h3>
+                    <p>Örnek1 Caddesi Örnek2 Sokağı No:1/3 Etiler/İstanbul</p>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <section class="markalar">
+            <h1>Çalıştığımız Markalar</h1>
+            <div class="workMark">
+                      <div class="images-group d-flex">
+                        <img src="./images/index/alfa-romeo.png" class="w-100" alt="...">
+                        <img src="./images/index/audi.png" class=" w-100" alt="...">
+                        <img src="./images/index/bmw-logo.png" class=" w-100" alt="...">
+                        <img src="./images/index/hyundai.png" class=" w-100" alt="...">
+                        <img src="./images/index/land-rover.png" class=" w-100" alt="...">
+                      </div>
+                  <div class="images-group d-flex">
+                    <img src="./images/index/Mercedes-Logo.svg(1).png" class=" w-100" alt="...">
+                    <img src="./images/index/opel-logo.png" class=" w-100" alt="...">
+                    <img src="./images/index/peugeot.png" class=" w-100" alt="...">
+                    <img src="./images/index/skoda.png" class=" w-100" alt="...">
+                    <img src="./images/index/volkswagen.png" class=" w-100" alt="...">
+                  </div>
+          </section>
+
+          <footer>
+            <div class="row  footerRow">
+              <div class="col-md-4 left-footer">
+                <a href="#"><h1>Carent</h1></a>
+              </div>
+
+              <div class="col-md-4 middle-footer">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#team">Kadromuz</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">Hizmetlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">İletişim</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-md-4 right-footer social">
+                  <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                      <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+          </footer>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

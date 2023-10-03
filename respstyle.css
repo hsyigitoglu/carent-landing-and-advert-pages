@@ -1,0 +1,109 @@
+/* MIN 991PX OPTIONS*/
+
+@media screen and (min-width:1220px) {
+    .container-fluid{
+        padding: 20px 150px;
+    }
+}
+@media screen and (min-width:991px) and (max-width:1340px){
+    .colBody{
+        max-width: 235px;
+        padding: 0 6px;
+    }
+    .card{
+        max-width: 235px;
+    }
+    .card .card-title{
+        font-size: 18px;
+    }
+    .card .card-body{
+        padding: 12px 6px;
+    }
+}
+@media screen and (max-width:991px) {
+    .navbar-collapse{
+        position: unset;
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
+    .iletisim .maps{
+        margin: 16px 0;
+    }
+    .about .col-lg-6 .aboutText{
+        text-align: center;
+        margin: 0;
+        padding: 5px 20px;
+    }
+    .about .col-lg-6 .aboutText h2{
+        margin-bottom: 16px;
+    }
+    .about .col-lg-6 .aboutText p,
+    .about .col-lg-6 .aboutText h3{
+        margin: auto;
+    }
+    .markalar .workMark .images-group{
+        justify-content: space-between!important;
+    }
+}
+
+/* 768 - 991px OPTIONS */
+@media screen and (min-width:768px) and (max-width:991px) {
+   header .headerText h1{
+    font-size: 48px;
+}
+}
+
+/* 576 - 768px OPTIONS */
+@media screen and (min-width:576px) and (max-width:768px) {
+    header .headerText h1{
+     font-size: 42px;
+    }
+    .iletisim .maps iframe{
+        width: 492px;
+    }
+    .markalar .workMark{
+        padding: 35px 25px;
+    }
+ }
+
+/* <576px OPTIONS */
+
+@media screen and (max-width:576px) {
+    header .headerText h1{
+        font-size: 32px;
+    }
+    header .headerBottom h2{
+        font-size: 20px;
+    }
+    .iletisim .maps iframe{
+        width: 276px;
+    }
+    .markalar .workMark{
+        padding: 35px 0;
+    }
+    .markalar .workMark .images-group{
+        justify-content: space-around!important;
+    }
+    .markalar .workMark .images-group img{
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .modelsPhone .goSite h3{
+        font-size: 16px;
+        margin-bottom: 0!important;
+    }
+    .modelsPhone .goSite a{
+        width: 24px;
+        height: 24px;
+    }
+}
+@media screen and (min-width:376px) and (max-width:576px) {
+    .markalar .workMark .images-group img{
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .iletisim .maps iframe{
+        width: 335px;
+    }
+}

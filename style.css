@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* fonts */
+    --brand-font: "Playfair Display", serif;
+    --main-font:"Oswald", sans-serif;
+    /* colors */
+    --darken-blue-color: hsl(200, 19%, 18%);
+    --dark-blue-color: hsl(200, 18%, 26%);
+    --light-blue-color:hsl(199, 18%, 33%);
+    --light-white:hsl(52, 100%, 95%);
+    --white: hsl(0, 0%, 100%);
+}
+body{
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 100vh;
+}
+p{
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--dark-blue-color);
+    font-weight: 700;
+}
+/* HEADER */
+header{
+    min-height: 963px;
+    background-image: url(./images/index/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 13, 13, 0.749);
+}
+
+/* NAVBAR */
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+nav a{
+    color: var(--light-white)!important;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.container-fluid{
+    padding: 20px 40px;
+}
+.navbar-brand{
+    /* padding: 0 150px; */
+    font-size: 40px;
+    font-family: var(--brand-font);
+    font-weight: 500;
+}
+.navbar-collapse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav-link{
+    font-size: 20px;
+}
+.nav-button{
+    padding: 10px;
+    background-color: #29B635;
+    color: var(--white);
+    border-radius: 10px;
+    border: none;
+}
+.fa-bars{
+    color: var(--white);
+}
+/* NAVBAR EXIT */
+
+header .headerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+header .headerText h1{
+    text-align: center;
+    color: var(--light-white);
+    font-size: 62px;
+    z-index: 1;
+}
+header .headerBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+}
+header .headerBottom .col-12{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .headerBottom .col-12 h2,
+header .headerBottom .col-12 i{
+    color: var(--light-white);
+    z-index: 1;
+}
+
+/* MODELS */
+.modelsPc,
+.modelsPhone,
+.sedan,
+.hatchback,
+.suv,
+.lux,
+.classic{
+    margin-top: 64px;
+    text-align: center;
+}
+.sedan,
+.hatchback,
+.suv,
+.lux,
+.classic{
+    height: 100vh;
+    padding-top: 32px;
+}
+.modelsPc .row{
+    gap: 10px;
+}
+
+.modelsPc h1{
+    margin-bottom: 16px;
+}
+.modelsPc p,
+.modelsPhone p{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+/* .row .modalsPhone .goSite{
+    margin-top: 64px;
+} */
+.modelsPhone .row .goSite h3{
+    margin-bottom: 16px;
+}
+.modelsPhone .goSite a{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--dark-blue-color);
+    border-radius: 50%;
+    color: var(--white);
+}
+.modelsPhone .goSite i{
+    font-size: 16px;
+}
+.chooseModel{
+    
+    max-width: 800px;
+    /* height: 300px; */
+    text-align: center;
+    font-size: 32px;
+}
+.chooseModel img{
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+}
+.image-container {
+    position: relative;
+    padding: 0;
+}
+.modelsPhone .image-container{
+    margin-bottom: 10px;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Resmi karartmak için arka plan rengini ayarlayın */
+    opacity: 1; /* Başlangıçta görünmez yapın */
+    transition: opacity 0.3s; /* Geçiş efekti ekleyin */
+}
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1;
+  }
+/* SEDAN */
+.sedan{
+    position: relative;
+}
+.sedan h1{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.categoryText{
+    margin-bottom: 16px;
+}
+.categoryText p{
+    display: inline-block;
+    max-width: 1200px;
+    /* margin: auto; */
+}
+.row{
+    margin: 0;
+    align-items: center;
+}
+
+.card{
+    max-width: 325px;
+}
+ /* .rowSlider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.carousel-item{
+    justify-content: center;
+}
+/* .carousel-control-prev{
+    left: -5% !important;
+}
+.carousel-control-next{
+    right: -5% !important;
+} */
+.rowSlider .carousel-control-prev-icon,
+.rowSlider .carousel-control-next-icon{
+    display: inline-block;
+    background: none;
+    color: black;
+    font-size: 32px;
+}
+.colBody{
+    max-width: 325px;
+}
+ .rowSlider .card-image{
+    padding: 25px 0 0 ;
+    max-width: 300px;
+    max-height: 234px;
+    margin: auto;
+}
+/* .rowSlider img{
+    max-width: 300px;
+    max-height: 209px;
+} */
+ .rowSlider .card-body .col-12{
+    justify-content: space-between;
+}
+ .rowSlider .card-body button{
+    margin-top: 12px;
+    width: 100%;
+    border: none;
+}
+ .rowSlider .card-body .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+ .rowSlider .card-body .callNow{
+    
+    background-color: #27791C;
+    color: var(--light-white);
+}
+ .rowSlider .card-body i{
+    margin-right: 10px;
+}
+ .rowSlider .card-body .seeDetails{
+    background-color: #6D6C67;
+    color: var(--light-white);
+}
+.row .rowText{
+    padding: 32px;
+}
+.row .rowText h2{
+    margin-bottom: 16px;
+}
+.row .seeAll{
+    margin-top: 32px;
+    text-align: center;
+}
+.row .seeAll a{
+    text-decoration: none;
+    color: var(--dark-blue-color);
+}
+.row .goDown{
+    margin-top: 64px;
+}
+.row .goDown h2{
+    margin-bottom: 16px;
+}
+.row .goDown a{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--dark-blue-color);
+    border-radius: 50%;
+    color: var(--white);
+}
+.row .goDown i{
+    font-size: 32px;
+}
+
+/* CONTACT */
+.iletisim{
+    background-color: #F3F3F2;
+    margin-top: 64px;
+}
+.iletisim .row{
+    justify-content: center;
+}
+ .iletisim .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.iletisim .contactText p {
+    font-size: 18px;
+    margin-bottom: 10px;
+} 
+.iletisim .contactText h2{
+    margin: 16px 0 16px;
+}
+.iletisim .contactText .yada{
+    color: #C4C3C4;
+}
+.iletisim .contactText .inputUp{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.iletisim .contactText .callUs{
+    display: flex;
+    gap:10px;
+}
+
+.iletisim .contactText input{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: var(--light-blue-color);
+    max-width:300px;
+    width: 100%;
+}
+.iletisim .contactText button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--dark-blue-color);
+    color: var(--light-white);
+    max-width: 300px;
+    width: 100%;
+}
+.iletisim .maps iframe{
+    width: 648px;
+    height: 310px;
+} 
+.about{
+    margin-top: 64px;
+    /* padding: 150px 0 0; */
+}
+.about h1{
+    margin-bottom: 32px;
+}
+.about .aboutImage{
+    border-radius: 25px;
+}
+.about .aboutImage img{
+    border-radius: 25px;
+    margin-left: -25px;
+}
+.about .aboutText{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 12.5px;
+    margin-left: -350px;
+    margin-bottom: 16px;
+}
+.about .aboutText p{
+    max-width: 400px;
+}
+.about .aboutText h3{
+    max-width: 650px;
+}
+.markalar{
+    margin-top: 64px;
+    text-align: center;
+}
+.markalar h1{
+    margin-bottom: 16px;
+}
+.markalar .workMark{
+    background-color: #F3F3F2;
+    padding: 35px 250px;
+}
+.markalar .workMark .images-group:nth-child(1){
+    justify-content: space-around;
+}
+.images-group:nth-child(2){
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.markalar .workMark img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+footer{
+    background-color: var(--darken-blue-color);
+    padding: 50px 0 0;
+}
+footer .col-md-4{
+    padding: 30px;
+}
+footer .left-footer{
+    display: flex;
+    justify-content: center;
+}
+footer .left-footer a{
+    text-decoration: none;
+}
+footer .left-footer h1{
+    color: var(--white);
+}
+footer .middle-footer{
+    text-align: center;
+}
+footer .nav-link{
+    color: var(--white);
+}
+footer .nav-link:hover{
+    color: var(--white);
+}
+footer .right-footer{
+    text-align: center;
+}
+footer .social a{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+footer .social i{
+    color: var(--white);
+    width: 20px;
+    height: 20px;
+}
+
+/* CAR DETAILS HTML */
+/* .carDetail .firstRow{
+    background-color: darkgray;
+} */
+.detailHtml nav{
+    background-color: var(--dark-blue-color);
+}
+.carDetail{
+    text-align: center;
+}
+.carImages{
+    max-width: 400px;
+    max-height: 400px;
+}
+.carImages img{
+    width: 100%;
+    padding: 25px;
+    height: 100%;
+}
+.carProperties .col-6{
+    margin-bottom: 8px;
+}
+.carProperties p{
+    font-size: 17px;
+}
+.carSell p{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.carDetail .accordion-button[aria-expanded="false"]{
+    background-color: var(--main-color);
+    color: var(--dark-blue-color);
+}
+.carDetail .accordion-button[aria-expanded="true"]{
+    background-color: var(--dark-blue-color);
+    color: var(--white);
+}
+.carDetail .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+/* .detailCard{
+    border-bottom: 1px solid var(--light-blue-color);
+} */
